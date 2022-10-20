@@ -9,10 +9,10 @@ export default function Home() {
   const [products, setProducts] = useState([]);
   const [error, setError] = useState(false);
 
-  const loadAllProduct = () => {
-    getProducts().then(data => {
+  const loadAllProduct = async () => {
+    getProducts().then((data) => {
       if (data.error) {
-        setError(data.error);
+        setError(data);
       } else {
         setProducts(data);
       }

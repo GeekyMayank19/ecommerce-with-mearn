@@ -1,2 +1,2 @@
-// export const API = "https://ecommerce-backend-2.herokuapp.com/api";
-export const API = "http://localhost:8000/api";
+export const API = "https://ecommerce-with-mern.onrender.com/api";
+// export const API = "http://localhost:8000/api";
